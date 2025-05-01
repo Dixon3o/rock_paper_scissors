@@ -48,7 +48,6 @@ function playRound(humanChoice, computerChoice){
     } else if (humanChoice === 'rock' && computerChoice === 'rock'){
         console.log("It's a draw.");
     }
-    return humanChoice && computerChoice;
 }
 function playGame(){
     for (let i = 0; i < 5; i++){
