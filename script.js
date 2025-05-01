@@ -12,4 +12,8 @@ function getComputerChoice(){
         console.log('Computer choice is: scissors');
     }
 }
-getComputerChoice();
+function getHumanChoice(){
+    let humanChoice = prompt("Choose between rock, paper or scissors: ");
+    humanChoice = humanChoice.toLowerCase();
+    console.log("Your choice is: " + humanChoice)
+}
