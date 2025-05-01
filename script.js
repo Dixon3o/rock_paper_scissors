@@ -48,8 +48,13 @@ function playRound(humanChoice, computerChoice){
     } else if (humanChoice === 'rock' && computerChoice === 'rock'){
         console.log("It's a draw.");
     }
+    return humanChoice && computerChoice;
 }
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
-
-playRound(humanSelection, computerSelection);
+function playGame(){
+    for (let i = 0; i < 5; i++){
+        let humanSelection = getHumanChoice();
+        let computerSelection = getComputerChoice();
+        playRound(humanSelection, computerSelection);
+    }
+}
+playGame();
