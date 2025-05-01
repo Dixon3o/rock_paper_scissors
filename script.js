@@ -56,5 +56,15 @@ function playGame(){
         let computerSelection = getComputerChoice();
         playRound(humanSelection, computerSelection);
     }
+    declareWinner();
 }
 playGame();
+function declareWinner(){
+    if (humanScore > computerScore){
+        console.log("Congrats! You won against the computer!");
+    } else if (computerScore > humanScore){
+        console.log("You have put a fight but couldn't defeat the computer!");
+    } else {
+        console.log("It is a complete draw this time.");
+    }
+}
