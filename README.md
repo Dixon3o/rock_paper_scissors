@@ -1,1 +1,1 @@
-This is my 3rd project on TOP and I will be building Rock Paper Scissors game with JS. Note that for now it will be only played on console. I will probably add GUI later.
+This is my 3rd project on TOP and I will be building Rock Paper Scissors game with JS. I added a bit of UI now. You have 3 buttons, each for scissors,rock or paper. It is played until one of the players raeched 5 points.
